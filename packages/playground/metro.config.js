@@ -31,6 +31,10 @@ function vnextResolve(originDir, moduleName) {
 
   // redirect the resolution to src if an appropriate file exists there
   const extensions = [
+    '.windesktop.tsx',
+    '.windesktop.ts',
+    '.windesktop.jsx',
+    '.windesktop.js',
     '.windows.tsx',
     '.windows.ts',
     '.windows.jsx',
